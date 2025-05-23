@@ -38,6 +38,15 @@ project-root/
 
 ## 🛠️ Setup Instructions
 
+
+### 0. 🔧 Initialize Prisma (if not already done)
+
+```bash
+npx prisma init --datasource-provider sqlite
+```
+
+> This creates a `prisma/schema.prisma` and `.env` file.
+
 ### 1. 📦 Install dependencies
 
 ```bash
